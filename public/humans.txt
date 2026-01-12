@@ -1,0 +1,13 @@
+/* TEAM */
+Gründer & Entwickler: Benedikt Linn
+Kontakt: info@vitakiez.de
+Standort: Berlin, Deutschland
+
+/* SITE */
+Standards: HTML5, CSS3, JavaScript ES6
+Komponenten: Node.js, Express, Docker
+Software: VS Code, GitHub Copilot
+
+/* DANKE */
+An alle zukünftigen Bewohner:innen und Unterstützer
+An die Open Source Community

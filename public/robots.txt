@@ -1,0 +1,12 @@
+# robots.txt für vitakiez.de
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.vitakiez.de/sitemap.xml
+
+# Crawl-Delay für höfliche Bots
+Crawl-delay: 1
+
+# Keine sensiblen Bereiche blockieren
+Disallow: /api/
