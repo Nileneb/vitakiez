@@ -6,6 +6,8 @@ services:
     ports:
       - "5602:3000"              # Host:Container
     restart: always
+    env_file:
+      - .env
     environment:
       - NODE_ENV=production
       - PORT=3000
