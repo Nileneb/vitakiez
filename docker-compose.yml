@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  vitakiez:
+    build: .
+    container_name: vitakiez
+    ports:
+      - "5602:3000"              # Host:Container
+    restart: always
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
